@@ -9,7 +9,7 @@ OcclusionCullingSettings:
     smallestHole: 0.25
     backfaceThreshold: 100
   m_SceneGUID: f6ebd96fbe4c70d4787707428b9576a0
-  m_OcclusionCullingData: {fileID: 36300000, guid: 38f57faeca9fe1445874ec43a8895813, type: 2}
+  m_OcclusionCullingData: {fileID: 36300000, guid: 8c1bae92258b59f4e8236b8c1a94892b, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -136,11 +136,11 @@ GameObject:
   - component: {fileID: 139814926}
   - component: {fileID: 139814925}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &139814925
 SphereCollider:
@@ -231,11 +231,11 @@ GameObject:
   - component: {fileID: 147390080}
   - component: {fileID: 147390079}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &147390079
 SphereCollider:
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 194879802}
   - component: {fileID: 194879801}
   m_Layer: 0
-  m_Name: Walls
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -421,11 +421,11 @@ GameObject:
   - component: {fileID: 237599369}
   - component: {fileID: 237599368}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &237599368
 SphereCollider:
@@ -516,11 +516,11 @@ GameObject:
   - component: {fileID: 385292515}
   - component: {fileID: 385292514}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &385292514
 SphereCollider:
@@ -692,11 +692,11 @@ GameObject:
   - component: {fileID: 616274614}
   - component: {fileID: 616274613}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &616274613
 SphereCollider:
@@ -787,11 +787,11 @@ GameObject:
   - component: {fileID: 651088015}
   - component: {fileID: 651088014}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &651088014
 SphereCollider:
@@ -882,7 +882,7 @@ GameObject:
   - component: {fileID: 747872959}
   - component: {fileID: 747872958}
   m_Layer: 0
-  m_Name: Walls
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -977,11 +977,11 @@ GameObject:
   - component: {fileID: 939156722}
   - component: {fileID: 939156721}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &939156721
 SphereCollider:
@@ -1072,11 +1072,11 @@ GameObject:
   - component: {fileID: 955681726}
   - component: {fileID: 955681725}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &955681725
 SphereCollider:
@@ -1260,11 +1260,11 @@ GameObject:
   - component: {fileID: 1071796444}
   - component: {fileID: 1071796443}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1071796443
 SphereCollider:
@@ -1355,11 +1355,11 @@ GameObject:
   - component: {fileID: 1071966089}
   - component: {fileID: 1071966088}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1071966088
 SphereCollider:
@@ -1514,13 +1514,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113331437}
-  m_LocalRotation: {x: -0, y: -0.98573947, z: -0, w: -0.16827844}
+  m_LocalRotation: {x: -0, y: -0.9083705, z: -0, w: 0.41816628}
   m_LocalPosition: {x: 8.89, y: 1.91, z: 0.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -199.375, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -130.562, z: 0}
 --- !u!114 &1113331441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1567,11 +1567,11 @@ GameObject:
   - component: {fileID: 1120287061}
   - component: {fileID: 1120287060}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1120287060
 SphereCollider:
@@ -1662,11 +1662,11 @@ GameObject:
   - component: {fileID: 1155591379}
   - component: {fileID: 1155591378}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1155591378
 SphereCollider:
@@ -1757,11 +1757,11 @@ GameObject:
   - component: {fileID: 1199342622}
   - component: {fileID: 1199342621}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1199342621
 SphereCollider:
@@ -1852,11 +1852,11 @@ GameObject:
   - component: {fileID: 1320257207}
   - component: {fileID: 1320257206}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1320257206
 SphereCollider:
@@ -1947,11 +1947,11 @@ GameObject:
   - component: {fileID: 1394812223}
   - component: {fileID: 1394812222}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1394812222
 SphereCollider:
@@ -2042,11 +2042,11 @@ GameObject:
   - component: {fileID: 1466539803}
   - component: {fileID: 1466539802}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1466539802
 SphereCollider:
@@ -2137,11 +2137,11 @@ GameObject:
   - component: {fileID: 1474454501}
   - component: {fileID: 1474454500}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1474454500
 SphereCollider:
@@ -2232,11 +2232,11 @@ GameObject:
   - component: {fileID: 1498649355}
   - component: {fileID: 1498649354}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1498649354
 SphereCollider:
@@ -2327,7 +2327,7 @@ GameObject:
   - component: {fileID: 1527034745}
   - component: {fileID: 1527034744}
   m_Layer: 0
-  m_Name: Walls
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2422,11 +2422,11 @@ GameObject:
   - component: {fileID: 1790376124}
   - component: {fileID: 1790376123}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1790376123
 SphereCollider:
@@ -2517,11 +2517,11 @@ GameObject:
   - component: {fileID: 1812102034}
   - component: {fileID: 1812102033}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1812102033
 SphereCollider:
@@ -2612,11 +2612,11 @@ GameObject:
   - component: {fileID: 1916474087}
   - component: {fileID: 1916474086}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 16
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!135 &1916474086
 SphereCollider:
