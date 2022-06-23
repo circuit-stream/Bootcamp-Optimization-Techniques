@@ -76,9 +76,45 @@ namespace CircuitStream
             var array = GenerateRandomArray();
             Debug.LogWarning($"Starting Array: {String.Join(", ", array)}");
 
-            // TODO
+            int[] supportArray = new int[array.Length];
+            MergeSort(array, supportArray, 0, array.Length - 1);
 
             Debug.Log($"Result: {String.Join(", ", array)}");
+        }
+
+        private static void MergeSort(int[] array, int[] supportArray, int start, int end) {
+            if (end <= start) return;
+
+            int mid = (end + start) / 2;
+
+            MergeSort(array, supportArray, start, mid);
+            MergeSort(array, supportArray, mid + 1, end);
+
+            Merge(array, supportArray, start, mid, end);
+        }
+
+        private static void Merge(int[] array, int[] supportArray, int start, int mid, int end) {
+            int leftArrayIndex = start, rightArrayIndex = mid + 1;
+
+            // Copy values to Support Array
+            for (int i = start; i <= end ; i++)
+                supportArray[i] = array[i];
+
+            // Merge left and right arrays
+            for (int i = start; i <= end; i++)
+            {
+                if (leftArrayIndex > mid) // We finished copying the numbers from the left array
+                    array[i] = supportArray[rightArrayIndex++];
+
+                else if (rightArrayIndex > end) // We finished copying the numbers from the right array
+                    array[i] = supportArray[leftArrayIndex++];
+
+                else if (supportArray[leftArrayIndex] > supportArray[rightArrayIndex])
+                    array[i] = supportArray[rightArrayIndex++];
+
+                else
+                    array[i] = supportArray[leftArrayIndex++];
+            }
         }
 
         private static int[] GenerateRandomArray()
