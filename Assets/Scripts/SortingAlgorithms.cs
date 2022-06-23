@@ -25,7 +25,17 @@ namespace CircuitStream
             var array = GenerateRandomArray();
             Debug.LogWarning($"Starting Array: {String.Join(", ", array)}");
 
-            // TODO
+            for (int i = 1; i < array.Length; i++)
+            {
+                for (int j = i; j > 0; j--)
+                {
+                    if (array[j] > array[j - 1]) break;
+
+                    int tmp = array[j];
+                    array[j] = array[j - 1];
+                    array[j - 1] = tmp;
+                }
+            }
 
             Debug.Log($"Result: {String.Join(", ", array)}");
         }
